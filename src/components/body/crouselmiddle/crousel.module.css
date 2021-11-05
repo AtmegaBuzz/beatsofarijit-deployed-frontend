@@ -1,0 +1,48 @@
+.CrouselDiv{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    padding-top: 130px;
+}
+
+.Crousel{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom,from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+.CrouselWritings{
+    z-index: 2;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    color: white;
+}
+
+#heading{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#text{
+    position: relative;
+    font-size: 2rem;
+    min-width: 200px;
+    width: 50%;
+}
+
+
+
+@media  screen and (max-width:505px) {
+    
+    #heading{
+        font-size: 10vw;
+    }
+    #text{
+        font-size: 5vw;
+    }
+}

@@ -1,0 +1,49 @@
+.SocialCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 50%;
+    color: white;
+    margin-top: 12px;
+}
+
+.SocialMedia{
+    display: flex;
+    flex-direction: column;
+    justify-content:center  ;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    cursor: pointer;
+    background: transparent;
+}
+.SocialMedia p{
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.616);
+}
+
+.Icons{
+    width: 30px;
+    height: 30px;
+    color: rgba(255, 255, 255, 0.616);
+    
+}
+
+.SocialMedia:hover .Icons{
+    color: white;
+}
+.SocialMedia:hover .HandleName{
+    color: white;
+}
+
+@media screen and (max-width:675px) {
+    .HandleName{
+        font-size: 0.8em;
+    }
+
+    .Icons{
+        width: 25px;
+        height: 25px;
+    }
+}

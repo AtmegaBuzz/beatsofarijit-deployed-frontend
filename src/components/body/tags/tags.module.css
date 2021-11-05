@@ -1,0 +1,30 @@
+.Tags{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: rgb(29, 28, 28);
+    width: max-content;
+    height: 5%;
+    padding: 15px;
+    margin-right: 4px;
+    background-color: red;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.Tags:hover{
+    transition: all ease-out 0.1s;
+    box-shadow: 2px 2px 2px red;
+    color: red;
+    background-color: white;
+    padding: 17px;
+}
+
+#Download{
+    width: 20px;
+    height: 20px;
+}
+

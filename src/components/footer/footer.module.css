@@ -1,0 +1,10 @@
+.FooterCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 25vh;
+    background-color: black;
+    border-top: 1px solid rgba(255, 255, 255, 0.205);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.205);    
+}
